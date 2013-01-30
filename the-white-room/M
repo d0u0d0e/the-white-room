@@ -1,0 +1,5 @@
+linux:
+	g++ -I. Lab0.cpp GLSL_helper.cpp MStackHelp.cpp libglfw.a -lX11 -lGL -lGLU -DGL_GLEXT_PROTOTYPES -lXrandr -lrt -pthread -lm
+#	g++ Lab0.cpp GLSL_helper.cpp MStackHelp.cpp -DGL_GLEXT_PROTOTYPES -lGL -lGLU -lglut
+#mac:
+#	g++ Lab0.cpp GLSL_helper.cpp MStackHelp.cpp -DGL_GLEXT_PROTOTYPES -framework OpenGL -framework GLUT
